@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+    <link rel="icon" href="images/file_00000000a91c61f8bb3e011ae6dd6e64.png">
+
+<head>
+     <meta charset="utf-8">
+       <meta name="viewport" content="width=device, initial-scale=1">
+    <title>
+        pantha-byte-Contact
+    </title>
+    <link rel="stylesheet" href="styles/styles.css">
+</head>
+<body class="hero" onload="myFunction()">
+    <!-- Loading Overlay -->
+<div id="loading-overlay">
+    <div class="loader" id="loader">
+        <span class="dot" id="dot"></span>
+        <span class="dot" id="dot"></span>
+        <span class="dot" id="dot"></span>
+    </div>
+</div>
+    <header class="hero">
+        <div class="logo-container">
+            <a href="#"><img src="images/file_00000000a91c61f8bb3e011ae6dd6e64.png" alt="Company Logo" class="logo"></a>
+            <nav class="heading">
+                <ul class="heading-content">
+                    <li><a href="index.html"><button>Home</button></a></li>
+                    <li><a href="About.html"><button>About</button></a></li>
+                    <li><a href="Portfolio.html"><button>Portfolio</button></a></li>
+                    <li><a href="Contact.html"><button>Contact</button></a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="contact-main">
+        <section class="contact-info">
+            <h2>Contact Us</h2>
+            <p>We'd love to hear from you! Reach out to us using any of the methods below, or fill out the contact form and we'll get back to you as soon as possible.</p>
+            <ul class="contact-details">
+                <li>
+                    <strong>Email:</strong>
+                    <a href="mailto:info@panthabyte.com">info@panthabyte.com</a>
+                </li>
+                <li>
+                    <strong>Phone:</strong>
+                    <a href="tel:+260973946389">+(260) 973-946-389</a>
+                </li>
+                <li>
+                    <strong>Business Hours:</strong>
+                    Monday - Friday: 9:00 AM - 6:00 PM<br>
+                    Saturday - Sunday: Closed
+                </li>
+            </ul>
+            <div class="map-container">
+                <iframe
+                    src="https://www.google.com/maps?q=Tech+City,+Country&output=embed"
+                    width="100%" height="200" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"
+                    title="Our Location"></iframe>
+            </div>
+        </section>
+        <section class="contact-form-section">
+            <h3>Send Us a Message</h3>
+            <form class="contact-form" autocomplete="on">
+                <div class="form-group">
+                    <label for="name">Name:<span class="required">*</span></label>
+                    <input type="text" id="name" name="name" required placeholder="Your full name">
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:<span class="required">*</span></label>
+                    <input type="email" id="email" name="email" required placeholder="your@email.com">
+                </div>
+                <div class="form-group">
+                    <label for="phone">Phone:</label>
+                    <input type="tel" id="phone" name="phone" placeholder="Optional">
+                </div>
+                <div class="form-group">
+                    <label for="subject">Subject:</label>
+                    <input type="text" id="subject" name="subject" placeholder="Subject of your message">
+                </div>
+                <div class="form-group">
+                    <label for="message">Message:<span class="required">*</span></label>
+                    <textarea id="message" name="message" rows="5" required placeholder="Type your message here"></textarea>
+                </div>
+                <button type="submit" class="submit-btn">Send Message</button>
+            </form>
+        </section>
+    </main>
+
+</body>
+    <script src="script.js"></script>
+
+
+</html>
